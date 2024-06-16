@@ -1,9 +1,9 @@
-// swift-tools-version: 5.10
+// swift-tools-version:5.10
 
 import PackageDescription
 
 let package = Package(
-    name: "FalClient",
+    name: "Fal",
     platforms: [
         .iOS(.v15),
         .macOS(.v12),
@@ -13,8 +13,8 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "FalClient",
-            targets: ["FalClient"]
+            name: "Fal",
+            targets: ["Fal"]
         ),
     ],
     dependencies: [
@@ -23,7 +23,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "FalClient",
+            name: "Fal",
             dependencies: [
                 "AI",
                 .product(name: "SwiftMsgpack", package: "swift-msgpack"),
