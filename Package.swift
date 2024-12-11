@@ -6,7 +6,7 @@ let package = Package(
     name: "Fal",
     platforms: [
         .iOS(.v15),
-        .macOS(.v12),
+        .macOS(.v13),
         .macCatalyst(.v15),
         .tvOS(.v15),
         .watchOS(.v8),
